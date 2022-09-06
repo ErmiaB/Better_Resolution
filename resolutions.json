@@ -1,0 +1,49 @@
+{
+    "resolutions": [
+        {
+            "resX": 1920,
+            "resY": 1080,
+            "text": "Full HD"
+        },
+        {
+            "resX": 1920,
+            "resY": 968,
+            "text": "Full HD i Chrome 1"
+        },
+        {
+            "resX": 1920,
+            "resY": 937,
+            "text": "Full HD i Chrome 2"
+        },
+        {
+            "resX": 950,
+            "resY": 937,
+            "text": "Halv Full HD i Chrome 1"
+        },
+        {
+            "resX": 1366,
+            "resY": 768,
+            "text": "Chromebook"
+        },
+        {
+            "resX": 3840,
+            "resY": 2160,
+            "text": "4K"
+        },
+        {
+            "resX": 3840,
+            "resY": 2000,
+            "text": "4K i chrome"
+        },
+        {
+            "resX": 1900,
+            "resY": 1960,
+            "text": "Halv 4K"
+        },
+        {
+            "resX": 1280,
+            "resY": 720,
+            "text": "Stackars projektor"
+        }
+    ]
+}
