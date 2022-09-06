@@ -1,7 +1,4 @@
-# from yad import YAD
-# yad = YAD()
-# yad.Form(fields=[["LBL", "Välj upplösning"],['BTN','Chromebook'], ['BTN','Full HD']])
-#
+# Bättre script av Ermia Behzadifar, Te21F
 import random
 from sys import argv
 from tkinter import *
@@ -29,11 +26,6 @@ class MyApp(object):
 
         self.buttonframe = Frame(self.root)
         self.buttonframe.grid(row=2, column=0, columnspan=2)
-        # w=50
-        # Button(self.buttonframe, text = "Brighten", width=w).grid(row=0, column=0)
-        # Button(self.buttonframe, text = "Darken", width=w).grid(row=1, column=0)
-        # Button(self.buttonframe, text = "Warm", width=w).grid(row=2, column=0)
-        # Button(self.buttonframe, text = "Cool").grid(row=3, column=0)
 
         self.res_file = open("/usr/local/berzan/resolutions.json", "r+")
         self.res_object = json.loads(self.res_file.read())
@@ -111,7 +103,5 @@ class MyApp(object):
         set_res.grid(row=4, column=0)
         set_res:Button = Button(inputframe, width=round(inputframe.winfo_width()/2), text="Spara Upplösning", font=("Arial", 18), command=lambda: self.save_resolution(int(resX.get()), int(resY.get()), newTitle.get()))
         set_res.grid(row=4, column=1)
-
-        # Fortsätt med spara upplösning, du har objektet i self, gör json.dumps. Lägg till delete knappar i menyn, och lägg till ett namn till spara knappen
 
 MyApp()
